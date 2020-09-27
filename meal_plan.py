@@ -32,7 +32,7 @@ class meal:
 m1 = meal("Lasanga","Tomato Suace", "Tomato Paste","Garlic", "Oregino", "Milk/Cream", "Pepper", "Salt", "Spice")
 m2 = meal("Halumi Sanwhiches","Halummi", "Basil","Garlic", "Oregino", "Spinach", "Pepper", "Salt", "Spice")
 m3 = meal("Shrimp Scampi","Shrimp", "Butter","Garlic", "Lemon", "Olive Oil", "Pepper", "Salt", "Spice")
-m4 = meal("Quiche","Eggs", "Chedar Cheese", "Garlic", "Leeks", "Olive Oil", "Pepper", "Salt", "Spice")
+m4 = meal("Quiche","Eggs", "Cheddar Cheese", "Garlic", "Leeks", "Olive Oil", "Pepper", "Salt", "Spice")
 m5 = meal("Fish","COD or Salmon", "Ginger","Garlic", "Lemon", "Olive Oil", "Pepper", "Salt", "Spice")
 m6 = meal("Veggie Shepard’s pi","Shrimp", "Butter","Garlic", "Lemon", "Olive Oil", "Pepper", "Salt", "Spice")
 m7 = meal("Pizza (homemade)" ,"Pizza Dough", "Tomato Sauce","Garlic", "Basil", "Olive Oil", "Pepper", "Salt", "Pineapple")
@@ -44,8 +44,8 @@ m12 = meal("Tomato soup / grilled cheese","Sour Dough Bread", "Butter","Garlic",
 m13 = meal("Stir fry", "Assorted Veggies", "Avo Oil","Garlic", "Lemon", "Ginger", "Pepper", "Salt", "Spice")
 m14 = meal("Bruschetta - Sandwich","Tomatos", "Mozzarella","Garlic", "Pesto", "Olive Oil", "Pepper", "Salt", "Bun")
 m15 = meal("Falafel","ChickPeas", "Butter","Garlic", "Lemon", "Edmame", "Pepper", "Salt", "Spice")
-m16 = meal("Chicken and yam","Chicken", "Yams","Garlic", "Lemon", "Olive Oil", "Pepper", "Salt", "Spice")
-m17 = meal("Greek spanakopita and potato","Philo or Premade Frozen", "Butter","Garlic", "Lemon", "Olive Oil", "Pepper", "Salt", "Spice")
+m16 = meal("Chicken and yam","Chicken", "Yams", "Garlic", "Lemon", "Olive Oil", "Pepper", "Salt", "Spice")
+m17 = meal("Greek spanakopita and potato", "Philo (Frozen)", "Butter","Garlic", "Lemon", "Olive Oil", "Pepper", "Salt", "Spice")
 m18 = meal("Bhan Mi", "Tofu", "Buns","Garlic", "Carrots", "Dikon", "Pepper", "Salt", "Spice")
 #####data######
 
@@ -59,12 +59,21 @@ def meal_per_day(days): #
     meallist = []
     for day in days:
         mealselected = random.choice(meals)
-        #decided if selected meal is in the array
-        if mealselected not in meallist:
-            meallist.append(mealselected)
-            print (day+": "+ mealselected.name)
-            mealselected.ingrd_list()
-            print ("+++++++\n")
+        #Loop to handle conflict and retry - rather than miss day.
+        stoploop = 1
+        while stoploop == 1:
+            #decided if selected meal is in the array
+            if mealselected not in meallist:
+                meallist.append(mealselected)
+                print ("\n" + day + ": "+ mealselected.name)
+                mealselected.ingrd_list()
+                print ("+++++++")
+                stoploop = 0
+            else:
+                # print ("Conflict of selected in the list")
+                mealselected = random.choice(meals)
+                stoploop = 1
+                # mealselected = random.choice(meals)
     return meallist
 
 # groceries list
@@ -80,9 +89,10 @@ def grocery_list(mealsselected):
 
         #convert to dict ingredients and count
         ingdrs_dict = dict(Counter(ingdrs))
-    print ("Grocery List: ")
+    print ("\nGrocery List: ")
     #print it left justified
     for key, value in ingdrs_dict.items():
         print (f'{key:20}{value}')
 
+# meal_per_day(days)
 grocery_list(meal_per_day(days))
