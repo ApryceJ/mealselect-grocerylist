@@ -13,8 +13,8 @@ python3 meal_plan.py
 Example Output:
 $ python3 meal_plan.py
 
-<p>Sunday: Chicken and yam</p>
-<p>Ingredients: Chicken, Yams, Garlic, Lemon, Olive Oil, Pepper, Salt, Spice</p>
+Sunday: Chicken and yam  
+Ingredients: Chicken, Yams, Garlic, Lemon, Olive Oil, Pepper, Salt, Spice  
 
 +++++++
 
