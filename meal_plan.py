@@ -1,8 +1,9 @@
 import random
 from collections import Counter
-# Functionality to add:
+# To Do:
 # Email me the list every Sunday
 # turn ingredients into an tuples (ingrd name + quantity)
+# Add option to select meals based on ingriendt constraint (EG: If beef then have 3 days of beef meals)
 # move the data/objects to a file in json format and read it in.
 # put it in a webserver(this implies database)
 
@@ -91,4 +92,5 @@ def grocery_list(mealsselected):
     for key, value in ingdrs_dict.items():
         print (f'{key:20}{value}')
 
+#Print all grocery based on the meals selected for the week.
 grocery_list(meal_per_day(days))
