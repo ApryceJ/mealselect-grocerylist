@@ -48,7 +48,7 @@ Ingredients: Leeks, Potatos, Garlic, Buolon Cubes, Carrots, Pepper, Salt, Spice
 
 +++++++
 
-Grocery | List
+Grocery List
 ------------ | -------------
 Chicken | 2
 Yams | 1
