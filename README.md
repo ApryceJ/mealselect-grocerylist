@@ -48,33 +48,77 @@ Ingredients: Leeks, Potatos, Garlic, Buolon Cubes, Carrots, Pepper, Salt, Spice
 
 +++++++
 
-<p>Grocery List:</p>
+<p> - Grocery List - </p>
 
-Chicken            2  
-Yams               1  
-Garlic             7  
-Lemon              2  
-Olive Oil          4  
-Pepper             7  
-Salt               7  
-Spice              5  
-Pizza Dough        1  
-Tomato Sauce       1  
-Basil              1  
-Pineapple          1  
-Rice Noodles       1  
-Ginger             1  
-Lime               1  
-Eggs               1  
-Chedar Cheese      1  
-Leeks              2  
-ChickPeas          1  
-Butter             1  
-Edmame             1  
-Tomatos            1  
-Mozzarella         1  
-Pesto              1  
-Bun                1  
-Potatos            1  
-Buolon Cubes       1  
-Carrots            1  
+
+Item: Garlic         
+Aisle: Fruits and Veggies  3
+
+Item: Lemon          
+Aisle: Fruits and Veggies  3
+
+Item: Ginger         
+Aisle: Fruits and Veggies  3
+
+Item: Lime           
+Aisle: Fruits and Veggies  3
+
+Item: Carrots        
+Aisle: Fruits and Veggies  3
+
+Item: Dikon          
+Aisle: Fruits and Veggies  3
+
+Item: Yams           
+Aisle: Fruits and Veggies  3
+
+Item: Shrimp         
+Aisle: Deli                6
+
+Item: COD or Salmon  
+Aisle: Deli                6
+
+Item: Chicken Breast
+Aisle: Deli                6
+
+Item: Tofu           
+Aisle: Deli                6
+
+Item: Tomato Sauce   
+Aisle: Snacks_and_Canned   7
+
+Item: Tomato Paste   
+Aisle: Snacks_and_Canned   7
+
+Item: ChickPeas      
+Aisle: Snacks_and_Canned   7
+
+Item: Olive Oil      
+Aisle: World Foods         8
+
+Item: Pepper         
+Aisle: World Foods         8
+
+Item: Salt           
+Aisle: World Foods         8
+
+Item: Spice          
+Aisle: World Foods         8
+
+Item: Oregano        
+Aisle: World Foods         8
+
+Item: Rice Noodles   
+Aisle: World Foods         8
+
+Item: Butter         
+Aisle: Dairy               9
+
+Item: Milk/Cream     
+Aisle: Dairy               9
+
+Item: Edmame         
+Aisle: Frozen              10
+
+Item: Buns           
+Aisle: Bakery              11
