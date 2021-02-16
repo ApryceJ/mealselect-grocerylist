@@ -13,38 +13,38 @@ python3 meal_plan.py
 Example Output:
 $ python3 meal_plan.py
 
-Sunday: Chicken and yam  
-Ingredients: Chicken, Yams, Garlic, Lemon, Olive Oil, Pepper, Salt, Spice  
+Sunday: Shrimp Scampi
+Ingredients: Shrimp, Butter, Garlic, Lemon, Olive Oil, Pepper, Salt, Spice
 
 +++++++
 
-Monday: Pizza (homemade)  
-Ingredients: Pizza Dough, Tomato Sauce, Garlic, Basil, Olive Oil, Pepper, Salt, Pineapple  
+Monday: Fish
+Ingredients: COD or Salmon, Ginger, Garlic, Lemon, Olive Oil, Pepper, Salt, Spice
 
 +++++++
 
-Tuesday: Pad Thai  
-Ingredients: Rice Noodles, Ginger, Garlic, Lime, Chicken, Pepper, Salt, Spice  
+Tuesday: Lasanga
+Ingredients: Tomato Sauce, Tomato Paste, Garlic, Oregano, Milk/Cream, Pepper, Salt, Spice
 
 +++++++
 
-Wednesday: Quiche  
-Ingredients: Eggs, Chedar Cheese, Garlic, Leeks, Olive Oil, Pepper, Salt, Spice  
+Wednesday: Pad Thai
+Ingredients: Rice Noodles, Ginger, Garlic, Lime, Chicken Breast, Pepper, Salt, Spice
 
 +++++++
 
-Thursday: Falafel  
-Ingredients: ChickPeas, Butter, Garlic, Lemon, Edmame, Pepper, Salt, Spice  
+Thursday: Bhan Mi
+Ingredients: Tofu, Buns, Garlic, Carrots, Dikon, Pepper, Salt, Spice
 
 +++++++
 
-Friday: Bruschetta - Sandwich  
-Ingredients: Tomatos, Mozzarella, Garlic, Pesto, Olive Oil, Pepper, Salt, Bun  
+Friday: Falafel
+Ingredients: ChickPeas, Butter, Garlic, Lemon, Edmame, Pepper, Salt, Spice
 
 +++++++
 
-Saturday: Leek and Potato Soup  
-Ingredients: Leeks, Potatos, Garlic, Buolon Cubes, Carrots, Pepper, Salt, Spice  
+Saturday: Chicken and yam
+Ingredients: Chicken Breast, Yams, Garlic, Lemon, Olive Oil, Pepper, Salt, Spice
 
 +++++++
 
